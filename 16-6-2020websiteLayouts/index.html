@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Style rule on general level-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+     <!--over rides A Style rule on general level-->
+    <style>
+        .city{
+            background-color: aqua;
+            color:red;
+        }
+        .banner{
+            background-color: orange!important;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"><h1> website</h1></div>
+    <div class="banner"><h1> website using class banner internal imp</h1></div>
+    <div class="banner;" style="background-color:black" ><h1> website inline</h1></div>
+    <div class="city" >this is styles using class</div>
+    <div style="background-color: blueviolet;color: cornsilk;"> this is formattted usinf div style</div>
+    <div class="city" style="color:crimson" >this is styles using class and inline styles</div>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+.header{
+background-color: brown;
+padding:30px;
+font-size: 35px;
+color:wheat;
+text-align: center;
+}
+footer{
+  background-color:grey;
+    text-align:center;
+     /* becoz elements before these content and aside were floated ,we got to use clear to go back to normal mode*/
+  }
+  .flexparent{
+ display:flex;
+ background-color: plum;
+ 
+  }
+ 
+  .content{
+    display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    background-color:powderblue ;
+  }
+  .left-content{
+    display:flex;
+    flex-grow:2;
+    background-color: lightgreen;
+  }
+
+.aside{
+  background-color:yellow;
+   height:300px;
+  flex-grow:1;
+ 
+}
+/*navigation Menu links*/
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: #333;
+    overflow: hidden;
+
+}
+li{
+    float:left;
+
+}
+li a{
+    /*2selectore li and a hyperlink in it*/
+    display:block;
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+   
+}
+li a:hover{
+    background-color: #000;
+}
